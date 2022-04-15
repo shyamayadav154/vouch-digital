@@ -35,7 +35,7 @@ const Login = () => {
     return
   }
 
-    console.log(formData)
+    
 
     try {
       const { data } = await axios.post('https://reqres.in/api/login', formData)
@@ -43,7 +43,7 @@ const Login = () => {
       
     } catch (error) {
       message.error(JSON.stringify(error.message))
-      console.log(error)
+     
     }
 
     setFormData(initialData)
@@ -56,7 +56,7 @@ const Login = () => {
 
       <form onSubmit={handleSubmit}>
         <FormInput
-          type='text'
+          type='email'
           placeholder='Email Address*'
           name='email'
           value={formData.email}
