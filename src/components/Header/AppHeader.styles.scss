@@ -1,0 +1,31 @@
+.container-fluid{
+    width: 100%;
+    
+    .app-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .brand{
+            font-weight: 800;
+        }
+       
+    }
+}
+
+
+.ant-menu-horizontal{
+    border-bottom: none;
+}
+
+#navyBlue{
+    background-color: #023047;
+    border: none;
+    font-weight: 600;
+}
+
+#orange{
+    background-color: #fb8602;
+    border: none;
+    font-weight: 600;
+}

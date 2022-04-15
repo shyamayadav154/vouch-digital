@@ -1,0 +1,21 @@
+
+
+
+
+
+.ant-layout-header {
+    color: black;
+    background: #fff !important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14);
+    z-index: 999;
+
+    @media only screen and (max-width: 768px) {
+        padding: 0 10px !important;
+    }
+
+}
+
+
+.ant-layout-content {
+    background-color: #fff;
+}
